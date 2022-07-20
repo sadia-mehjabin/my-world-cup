@@ -18,10 +18,10 @@ body{
 
 }
 .text{
-    color: aliceblue;
+    color: white;
     width: 50%;
-    text-align: center;
-    padding: 30px 50px 30px 50px;
+    text-align: left;
+    padding: 30px 100px 30px 100px;
 
 }
 .text h1{
@@ -29,7 +29,7 @@ body{
 
 }
 .watch-button{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.947);
     height: 50px;
     width: 150px;
     font-size: 20px;
@@ -56,16 +56,22 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-    height: 300px;
-    width: 16%;
+    height: 270px;
+    width: 250px;
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 .button-sector button{
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 900px;
+    font-weight: 200px;
+}
+.highlight{
+    background-color: rgba(255, 0, 0, 0.947);
+    color: white;
 }
 .photo-grid{
     display: grid;
@@ -75,7 +81,11 @@ body{
 
 .multiple-photo{
     display: block;
-    width: 250px;
+    width: 310px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+
 }
 .multiple-photo .button-look{
     padding: 5px 10px 5px 10px;
@@ -85,8 +95,15 @@ body{
     width: 80px;
     text-align: center;
     font-weight: 500;
+    margin-left: 12px;
     
-    
+} 
+ 
+.multiple-photo p{
+    margin-left: 12px;
+    font-size: 17px;
+    padding-top: 5px;
+
 }
 .icon{
     display: flex; 
@@ -94,14 +111,50 @@ body{
 .time-icon{
     display: flex;
     margin-right: 35px;
+   
 }
 .chat-icon{
     display: flex;
 }
 .icon i{
-    margin: 4px 10px;
+    margin: 12px 10px;
 }
+
 .icon p{
     text-align: center;
     margin-top: 0;
+}
+
+/* footer section  */
+
+footer{
+    background-color: black;
+    height: 400px;
+    padding: 0px 100px 0px 100px;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+hr{
+   width: 1100px; 
+   color: gray;
+}
+.last-sect{
+    display: flex;
+    justify-content: space-evenly;
+}
+.last-sect p{
+    color: rgb(171, 204, 233);
+    text-align: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon i{
+    color: white;
+    margin: 15px;
 }
