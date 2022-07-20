@@ -44,3 +44,23 @@ body{
 .photo img{
     height: 550px;
 }
+
+/* grid section  */
+
+.image{
+    display: block;
+    width: 250px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px; 
+    height: 20px; 
+    border: 1px solid;
+    
+}
+.icon p{
+    text-align: center;
+}
