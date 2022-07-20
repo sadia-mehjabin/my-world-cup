@@ -53,14 +53,19 @@ body{
 }
 
 .icon{
+    display: flex; 
+}
+.time-icon{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 250px; 
-    height: 20px; 
-    border: 1px solid;
-    
+    margin-right: 35px;
+}
+.chat-icon{
+    display: flex;
+}
+.icon i{
+    margin: 4px 10px;
 }
 .icon p{
     text-align: center;
+    margin-top: 0;
 }
