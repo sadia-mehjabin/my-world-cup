@@ -85,9 +85,11 @@ body{
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin: 10px;
+    height: 230px;
+    padding: 30px;
 
 }
-.multiple-photo .button-look{
+/* .multiple-photo .button-look{
     padding: 5px 10px 5px 10px;
     font-size: 15px;
     border: 1px solid;
@@ -97,7 +99,7 @@ body{
     font-weight: 500;
     margin-left: 12px;
     
-} 
+}  */
  
 .multiple-photo p{
     margin-left: 12px;
@@ -105,19 +107,19 @@ body{
     padding-top: 5px;
 
 }
-.icon{
+.flag{
     display: flex; 
 }
-.time-icon{
-    display: flex;
-    margin-right: 35px;
-   
+.flag p{
+    margin: 10px;
+    padding: 10px;
 }
-.chat-icon{
-    display: flex;
+.flag img{
+    width: 45%;
 }
-.icon i{
-    margin: 12px 10px;
+
+.another-text{
+    text-align: center;
 }
 
 .icon p{
@@ -157,20 +159,4 @@ hr{
 .social-icon i{
     color: white;
     margin: 15px;
-}
-
-/* media queries  */
-
-/* mobile devices  */
-@media only screen and(max-width:688px) { 
-    .banner-section{
-        display: 100%;
-    }
-    .photo img{
-        width: 50%;
-    } 
-     .photo-grid{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
