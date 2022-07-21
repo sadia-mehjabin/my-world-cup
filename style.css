@@ -69,6 +69,9 @@ body{
     font-size: 20px;
     font-weight: 200px;
 }
+.button-sector a{
+    text-decoration: none;
+}
 .highlight{
     background-color: rgba(255, 0, 0, 0.947);
     color: white;
